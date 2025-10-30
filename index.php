@@ -85,11 +85,7 @@ $result = mysqli_query($koneksi, $sql);
             </table>
         <?php else: ?>
             <tr>
-                <td></td>
-                <td></td>
-                <td>Tidak Ada Data.</td>
-                <td></td>
-                <td></td>
+                <td colspan="5" class="text-center">Tidak Ada Data.</td>
             </tr>
         <?php endif ?>
 

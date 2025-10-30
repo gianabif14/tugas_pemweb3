@@ -1,7 +1,7 @@
 <?php
-    $db_host = "db"; //pakai db karena mysql dijalankan di docker, bisa diubah menjadi localhost
+    $db_host = "localhost";
     $db_user = "root";
-    $db_pass = "gian14";
+    $db_pass = "";
     $db_name = "tugaspemweb_3";
     $db_port = 3306;
 
